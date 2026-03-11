@@ -6,7 +6,7 @@ echo "nameserver 8.8.8.8" > /run/systemd/resolve/stub-resolv.conf
 export http_proxy=http://172.17.0.1:1081
 export https_proxy=http://172.17.0.1:1081
 export DRIVER_REPO=https://github.com/open-rdma/open-rdma-driver.git
-export DRIVER_COMMIT=157973d6d5d57f026c3ee898136c050ceba82560
+export DRIVER_COMMIT=f63630e5f39af13cfc956379e4496b00d6bb85b6
 export RTL_REPO=https://github.com/open-rdma/open-rdma-rtl.git
 export RTL_COMMIT=8924575bd12fb75ed783902883cbacfd47c47df8
 
